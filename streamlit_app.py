@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 
-model=pickle.load(open('mlr.pkl','rb'))
+model=pickle.load(open('https://github.com/kushalasn/Streamlit_Nascent/blob/main/mlr.pkl','rb'))
 
 def mlr_prediction(cylinder,displacement,horsepower,weight,accelaration,model_year):
 
