@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import requests
+import sklearn
 
 # URL to the raw pickle file on GitHub
 PICKLE_URL = 'https://raw.githubusercontent.com/kushalasn/Streamlit_Nascent/main/mlr.pkl'
