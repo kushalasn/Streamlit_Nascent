@@ -35,7 +35,7 @@ def main():
     result=''
 
     if st.button('Predict'):
-        result=mlr_prediction(c,d,h,w,a,m)
+        result=model(c,d,h,w,a,m)
     if result is not None:
         st.success(result)
     else:
