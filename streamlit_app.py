@@ -39,7 +39,7 @@ def main():
     result=''
 
     if st.button('Predict'):
-        result=model(c,d,h,w,a,m)
+        result=model.predict(c,d,h,w,a,m)
     if result is not None:
         st.success(result)
     else:
