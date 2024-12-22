@@ -20,6 +20,9 @@ def load_model_from_github(url):
 
 def main():
 
+
+    model = load_model_from_github(PICKLE_URL)
+
     # giving the webpage a title
     st.title('Car fuel Efficiency')
 
